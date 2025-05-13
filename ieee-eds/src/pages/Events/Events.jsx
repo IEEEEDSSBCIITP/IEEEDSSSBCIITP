@@ -6,6 +6,7 @@ import newEventImage from '../../assets/eventImages/sept18.jpeg';
 import pastEventImage1 from '../../assets/images/inauguration.jpeg';
 import pastEventImage2 from '../../assets/images/guest_talk_prof_sudeb_dasgupta.jpeg';
 import pastEventImage3 from '../../assets/images/Dr. vishal gupta_page.jpg';
+import pastEventImage4 from '../../assets/images/Yen-Chieh Kevin Huang.jpg';
 import highlightImage1 from '../../assets/images/event1.jpeg';
 import highlightImage2 from '../../assets/images/event2.jpeg';
 import highlightImage3 from '../../assets/images/event3.jpeg';
@@ -38,6 +39,14 @@ const events = [
     description: "Emerging memory devices and circuits",
     registrationLink: "Registration Link",
 
+  },
+  {
+    title: "IEEE EDS Technical Talk by Yen-Chieh Kevin Huang (Device Dynamics Lab Taiwan)",
+    date: "October 4, 2024",
+    time: "11:00 AM",
+    description: "Chips, Character, and Keeping It Together: How Semiconductors and You stay Reliable",
+    registrationLink: "Registration Link",
+
   }
 ];
 
@@ -56,6 +65,11 @@ const pastEvents = [
     image: pastEventImage3,
     name: "Guest Talk by Dr. Vishal Gupta(VIT Vellore)",
     date: "December 24, 2024",
+  },
+  {
+    image: pastEventImage4,
+    name: "IEEE EDS Technical Talk by Yen-Chieh Kevin Huang (Device Dynamics Lab Taiwan)",
+    date: "October 4, 2024",
   }
 ];
 
