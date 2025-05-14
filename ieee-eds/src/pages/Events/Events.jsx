@@ -7,6 +7,8 @@ import pastEventImage1 from '../../assets/images/inauguration.jpeg';
 import pastEventImage2 from '../../assets/images/guest_talk_prof_sudeb_dasgupta.jpeg';
 import pastEventImage3 from '../../assets/images/Dr. vishal gupta_page.jpg';
 import pastEventImage4 from '../../assets/images/Yen-Chieh Kevin Huang.jpg';
+import pastEventImage5 from '../../assets/images/Dr.Arun Kumar.jpg';
+import pastEventImage6 from '../../assets/images/Dr.Shubham Sahay.jpg';
 import highlightImage1 from '../../assets/images/event1.jpeg';
 import highlightImage2 from '../../assets/images/event2.jpeg';
 import highlightImage3 from '../../assets/images/event3.jpeg';
@@ -46,7 +48,20 @@ const events = [
     time: "11:00 AM",
     description: "Chips, Character, and Keeping It Together: How Semiconductors and You stay Reliable",
     registrationLink: "Registration Link",
-
+  },
+  {
+    title: "Guest Talk by Dr. Arun Kumar(NIT Silchar)",
+    date: "January 15, 2025",
+    time: "6:00 PM",
+    description: "Self heating induced failure analysis in emerging transistor architechture.",
+    registrationLink: "Registration Link",
+  },
+  {
+    title: "Guest Talk by Dr. Shubham Sahay (IIT Kanpur)",
+    date: "January 14, 2025",
+    time: "7:30 PM",
+    description: "How to perform legitimat TCAD simulations.",
+    registrationLink: "Registration Link",
   }
 ];
 
@@ -70,6 +85,16 @@ const pastEvents = [
     image: pastEventImage4,
     name: "IEEE EDS Technical Talk by Yen-Chieh Kevin Huang (Device Dynamics Lab Taiwan)",
     date: "October 4, 2024",
+  },
+  {
+    image: pastEventImage5,
+    name: "Guest Talk by Dr. Arun Kumar(NIT Silchar)",
+    date: "January 15, 2025",
+  },
+  {
+    image: pastEventImage6,
+    name: "Guest Talk by Dr. Shubham Sahay (IIT Kanpur)",
+    date: "January 14, 2025",
   }
 ];
 
